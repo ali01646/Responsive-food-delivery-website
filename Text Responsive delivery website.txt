@@ -121,7 +121,7 @@ Click Share -> Embed Map -> Copy HTML
 
 .map__title .map__info
 Location
-Lima - Sun City - Peru <br> Av. Moon #4321
+Khagrachari - Mohalchari - char <br> Av. Moon #4321
 
 Schedule
 Monday - Sunday <br> 24/7
@@ -163,4 +163,4 @@ Stay Connected
 
 
 .footer__copy
-&#169; All Rights Reserved By Bedimcode
+&#169; All Rights Reserved By Ali hossen
