@@ -126,10 +126,27 @@ img {
 	Color changes in some parts of 
 	the website, in dark theme
 ==========*/
-.dark-theme :is(.button), .home__link:hover{
+.dark-theme :is(.button), .home__link:hover, .menu__button,
+                .swiper-button-prev:hover, .swiper-button-next:hover,
+                .footer__social-link:hover{
   color: var(--dark-color);
 }
 
+.dark-theme :is(.footer__social-link, .footer__form){
+  background-color: var(--body-color);
+}
+
+.dark-theme::-webkit-scrollbar{
+  background-color: hsl(45, 8%, 12%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb{
+  background-color: hsl(45, 8%, 20%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(45, 8%, 24%);
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1120px;
@@ -1281,8 +1298,16 @@ transition: color .4s;
   .footer__form{
     width: 330px;
   }
-
+.scrollup{
+  right: 3rem;
+}
   
 }
 
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
+@media screen and (min-width = 2048px){
+  body{
+    zoom: 1.4;
+  }
+  
+}
